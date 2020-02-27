@@ -32,7 +32,7 @@ class Resort {
 
 			if (button2 == 1) {
 				int pass;
-				System.out.println("Enter Password: "); //default pass = "1234"
+				System.out.println("Enter Password: "); //default pass = "123456"
 				pass = scanner.nextInt();
 				if (pass != m.getPassword()) {
 					System.out.println("Wrong Passoword!!!!!");
